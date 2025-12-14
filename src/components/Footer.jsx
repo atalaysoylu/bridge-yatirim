@@ -1,3 +1,5 @@
+import Logo from './Logo'
+
 const Footer = () => {
   const currentYear = new Date().getFullYear()
 
@@ -7,7 +9,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Company Info */}
           <div className="lg:col-span-1">
-            <h3 className="text-2xl font-bold text-white mb-4">Bridge Yatırım</h3>
+            <div className="mb-4">
+              <Logo className="h-12" />
+            </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
               SPK lisanslı aracı kurum olarak, 15 yılı aşkın tecrübemizle yatırımcılarımıza güvenilir ve profesyonel hizmet sunuyoruz.
             </p>

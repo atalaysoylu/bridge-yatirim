@@ -14,7 +14,23 @@ const Hero = () => {
             Forex, hisse senedi ve emtia piyasalarında profesyonel rehberlik. Güvenilir altyapı ve uzman analiz desteği ile yatırımlarınızı yönetin.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="bg-primary-600 text-white px-8 py-4 rounded-lg hover:bg-primary-700 transition-colors font-semibold text-lg shadow-lg shadow-primary-600/30 hover:shadow-xl hover:shadow-primary-600/40 transform hover:-translate-y-0.5 transition-all flex items-center gap-2">
+            <a
+              href="#iletisim"
+              onClick={(e) => {
+                e.preventDefault()
+                const element = document.getElementById('iletisim')
+                if (element) {
+                  const headerOffset = 80
+                  const elementPosition = element.getBoundingClientRect().top
+                  const offsetPosition = elementPosition + window.pageYOffset - headerOffset
+                  window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                  })
+                }
+              }}
+              className="bg-primary-600 text-white px-8 py-4 rounded-lg hover:bg-primary-700 transition-colors font-semibold text-lg shadow-lg shadow-primary-600/30 hover:shadow-xl hover:shadow-primary-600/40 transform hover:-translate-y-0.5 transition-all flex items-center gap-2 cursor-pointer"
+            >
               <svg
                 className="w-5 h-5"
                 fill="none"
@@ -27,10 +43,26 @@ const Hero = () => {
                 <path d="M13 10V3L4 14h7v7l9-11h-7z" />
               </svg>
               Ücretsiz Demo Hesap
-            </button>
-            <button className="bg-transparent text-white border-2 border-primary-600 px-8 py-4 rounded-lg hover:bg-primary-600 transition-colors font-semibold text-lg">
+            </a>
+            <a
+              href="#hizmetler"
+              onClick={(e) => {
+                e.preventDefault()
+                const element = document.getElementById('hizmetler')
+                if (element) {
+                  const headerOffset = 80
+                  const elementPosition = element.getBoundingClientRect().top
+                  const offsetPosition = elementPosition + window.pageYOffset - headerOffset
+                  window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                  })
+                }
+              }}
+              className="bg-transparent text-white border-2 border-primary-600 px-8 py-4 rounded-lg hover:bg-primary-600 transition-colors font-semibold text-lg cursor-pointer"
+            >
               Daha Fazla Bilgi
-            </button>
+            </a>
           </div>
         </div>
       </div>

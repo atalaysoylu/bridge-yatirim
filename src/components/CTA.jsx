@@ -11,7 +11,10 @@ const CTA = () => {
             Ücretsiz demo hesabınızı açın ve 100.000$ sanal bakiye ile risk almadan trading deneyimi kazanın. Uzman ekibimiz her adımda yanınızda.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <button className="bg-white text-primary-700 px-8 py-4 rounded-lg hover:bg-primary-50 transition-colors font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all flex items-center gap-2">
+            <a
+              href="mailto:info@bridgeyatirim.com?subject=Demo Hesap Açma Talebi&body=Merhaba, demo hesap açmak istiyorum."
+              className="bg-white text-primary-700 px-8 py-4 rounded-lg hover:bg-primary-50 transition-colors font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all flex items-center gap-2 cursor-pointer"
+            >
               <svg
                 className="w-5 h-5"
                 fill="none"
@@ -24,10 +27,13 @@ const CTA = () => {
                 <path d="M13 10V3L4 14h7v7l9-11h-7z" />
               </svg>
               Ücretsiz Demo Hesap Aç
-            </button>
-            <button className="bg-transparent text-white border-2 border-white px-8 py-4 rounded-lg hover:bg-white hover:text-primary-700 transition-colors font-semibold text-lg">
+            </a>
+            <a
+              href="tel:+902121234567"
+              className="bg-transparent text-white border-2 border-white px-8 py-4 rounded-lg hover:bg-white hover:text-primary-700 transition-colors font-semibold text-lg cursor-pointer"
+            >
               Yatırım Danışmanı Ara
-            </button>
+            </a>
           </div>
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center text-gray-200">
             <a

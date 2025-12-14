@@ -1,0 +1,17 @@
+<svg width="200" height="50" viewBox="0 0 200 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bridge Icon -->
+  <path d="M10 30 L20 25 L30 30 L40 25 L50 30" stroke="#2563eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M10 30 L20 25 L30 30 L40 25 L50 30" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.7"/>
+  <line x1="20" y1="25" x2="20" y2="35" stroke="#2563eb" stroke-width="2"/>
+  <line x1="30" y1="30" x2="30" y2="40" stroke="#2563eb" stroke-width="2"/>
+  <line x1="40" y1="25" x2="40" y2="35" stroke="#2563eb" stroke-width="2"/>
+  
+  <!-- Bridge supports -->
+  <line x1="10" y1="30" x2="10" y2="45" stroke="#2563eb" stroke-width="2"/>
+  <line x1="50" y1="30" x2="50" y2="45" stroke="#2563eb" stroke-width="2"/>
+  
+  <!-- Text -->
+  <text x="60" y="25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">Bridge</text>
+  <text x="60" y="40" font-family="Arial, sans-serif" font-size="14" fill="#3b82f6">Yatırım</text>
+</svg>
+

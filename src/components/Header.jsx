@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Logo from './Logo'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -27,13 +28,13 @@ const Header = () => {
           <div className="flex-shrink-0">
             <a 
               href="/" 
-              className="text-2xl font-bold text-white"
               onClick={(e) => {
                 e.preventDefault()
                 window.scrollTo({ top: 0, behavior: 'smooth' })
               }}
+              className="flex items-center"
             >
-              Bridge Yatırım
+              <Logo className="h-14 lg:h-16" />
             </a>
           </div>
 
@@ -67,9 +68,13 @@ const Header = () => {
             >
               İletişim
             </a>
-            <button className="bg-primary-600 text-white px-6 py-2 rounded-lg hover:bg-primary-700 transition-colors font-medium">
+            <a
+              href="#iletisim"
+              onClick={(e) => handleNavClick(e, 'iletisim')}
+              className="bg-primary-600 text-white px-6 py-2 rounded-lg hover:bg-primary-700 transition-colors font-medium cursor-pointer"
+            >
               Hesap Aç
-            </button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -127,9 +132,13 @@ const Header = () => {
             >
               İletişim
             </a>
-            <button className="w-full bg-primary-600 text-white px-6 py-2 rounded-lg hover:bg-primary-700 transition-colors font-medium">
+            <a
+              href="#iletisim"
+              onClick={(e) => handleNavClick(e, 'iletisim')}
+              className="w-full bg-primary-600 text-white px-6 py-2 rounded-lg hover:bg-primary-700 transition-colors font-medium cursor-pointer text-center block"
+            >
               Hesap Aç
-            </button>
+            </a>
           </div>
         )}
       </nav>
