@@ -1,8 +1,8 @@
 const WhyUs = () => {
   const features = [
     {
-      title: 'SPK Lisanslı',
-      description: 'Sermaye Piyasası Kurulu tarafından lisanslı ve denetlenen güvenilir aracı kurum.',
+      title: 'FCA Lisanslı',
+      description: 'Financial Conduct Authority (FCA) tarafından lisanslı ve denetlenen güvenilir aracı kurum. İngiltere\'nin en prestijli finansal düzenleyici kurumu ile korunan yatırımlarınız.',
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
@@ -73,7 +73,7 @@ const WhyUs = () => {
             Güvenilir Ortağınız, Bridge Yatırım
           </p>
           <p className="text-gray-300 max-w-3xl mx-auto mt-4">
-            15 yılı aşkın sektör tecrübemiz ve SPK lisanslı yapımızla, yatırımcılarımıza en güvenli ve profesyonel hizmeti sunuyoruz. Küresel piyasalara erişim, rekabetçi fiyatlandırma ve kişiselleştirilmiş danışmanlık ile yanınızdayız.
+            15 yılı aşkın sektör tecrübemiz ve FCA (Financial Conduct Authority) lisanslı yapımızla, yatırımcılarımıza en güvenli ve profesyonel hizmeti sunuyoruz. İngiltere'nin finansal düzenleyici kurumu tarafından denetlenen güvenilir altyapımız, küresel piyasalara erişim, rekabetçi fiyatlandırma ve kişiselleştirilmiş danışmanlık ile yanınızdayız.
           </p>
         </div>
 

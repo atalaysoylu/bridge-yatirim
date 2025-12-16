@@ -13,7 +13,7 @@ const Footer = () => {
               <Logo className="h-12" />
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
-              SPK lisanslı aracı kurum olarak, 15 yılı aşkın tecrübemizle yatırımcılarımıza güvenilir ve profesyonel hizmet sunuyoruz.
+              FCA (Financial Conduct Authority) lisanslı aracı kurum olarak, 15 yılı aşkın tecrübemizle yatırımcılarımıza güvenilir ve profesyonel hizmet sunuyoruz. İngiltere'nin finansal düzenleyici kurumu tarafından denetlenen güvenilir bir yatırım platformuyuz.
             </p>
             <div className="flex space-x-4">
               <a
