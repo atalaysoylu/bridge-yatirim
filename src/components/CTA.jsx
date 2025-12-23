@@ -29,7 +29,7 @@ const CTA = () => {
               Ücretsiz Demo Hesap Aç
             </a>
             <a
-              href="tel:+902121234567"
+              href="tel:+902128220512"
               className="bg-transparent text-white border-2 border-white px-8 py-4 rounded-lg hover:bg-white hover:text-primary-700 transition-colors font-semibold text-lg cursor-pointer"
             >
               Yatırım Danışmanı Ara
@@ -37,7 +37,7 @@ const CTA = () => {
           </div>
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center text-gray-200">
             <a
-              href="tel:+902121234567"
+              href="tel:+902128220512"
               className="flex items-center gap-2 hover:text-white transition-colors"
             >
               <svg
@@ -51,7 +51,7 @@ const CTA = () => {
               >
                 <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
-              <span className="text-lg">+90 212 123 45 67</span>
+              <span className="text-lg">+90 212 822 05 12</span>
             </a>
             <a
               href="mailto:info@bridgeyatirim.com"
